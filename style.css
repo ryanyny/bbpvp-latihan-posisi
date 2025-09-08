@@ -3,20 +3,24 @@ body {
     padding: 0;
 }
 
-.header {
+.navbar {
     background-color: #0400fe;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
 }
 
-.header ul {
+.navbar .brand img {
+    width: 100px;
+}
+
+.navbar .menu ul {
     list-style: none;
 }
 
-.header ul li a {
+.navbar .menu ul li a {
     color: #ffffff;
     text-decoration: none;
     padding: 0 20px;
@@ -44,7 +48,7 @@ body {
     height: 50px;
 }
 
-.body {
+.content {
     background-color: #2bc80a;
     margin-top: -20px;
 }
